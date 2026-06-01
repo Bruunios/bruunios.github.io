@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Bruno Cicero, Desenvolvedor Web.">
+    <title>Bruno Cicero | Desenvolvedor Web</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Animado (Blobs) -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+
+    <!-- Navegação -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon"></span>
+                Bruno Cicero
+            </a>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">Sobre mim</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <a href="#contact" class="btn btn-outline">VAMOS CONVERSAR</a>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção Hero -->
+    <section id="home" class="hero">
+        <div class="container hero-wrapper">
+            <div class="hero-content">
+                <h2 class="subtitle">Olá, eu sou</h2>
+                <h1 class="title">BRUNO CICERO</h1>
+                <h3 class="profession">DESENVOLVEDOR WEB</h3>
+                <p class="description">
+                    Transformo ideias em experiências digitais inovadoras. Especializado em criar sites modernos, rápidos e focados em alta performance e design premium.
+                </p>
+                <div class="hero-actions">
+                    <a href="#portfolio" class="btn btn-solid">Ver Trabalhos</a>
+                    <a href="#about" class="btn btn-text">Saiba Mais <span class="arrow">→</span></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper glass-card">
+                    <!-- A imagem será carregada localmente da pasta do projeto -->
+                    <img src="profile.jpg.png" alt="Bruno Cicero - Desenvolvedor Web">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre Mim -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-grid">
+                <div class="about-text glass-card">
+                    <p>Minha paixão por tecnologia começou na adolescência, quando aprendi de forma autodidata por meio de tutoriais. No Ensino Médio, cursei Desenvolvimento de Sistemas na ETEC Abdias do Nascimento, adquirindo conhecimentos em programação e design. Participei de hackathons e competições no-code, além do programa EmpreendeSim da USP, no qual minha equipe conquistou destaque. Entre os projetos realizados, o principal foi o aplicativo Sangue Herói, voltado à conscientização sobre doação de sangue, que obteve reconhecimento de instituições públicas e visibilidade na mídia.</p>
+                    <p>Participei de uma iniciativa voltada à empregabilidade de Pessoas com Deficiência, conectando empresas a profissionais PCD e promovendo inclusão. Após o Ensino Médio, ingressei em Análise e Desenvolvimento de Sistemas e passei a me aprofundar em WordPress, área que me levou a fundar a startup LandiUp, focada em presença digital. No futuro, pretendo concluir a graduação e cursar Design Gráfico para ampliar minhas habilidades e impacto profissional.</p>
+                </div>
+                <div class="skills-column">
+                    <div class="skills glass-card">
+                        <h3>Minhas Habilidades</h3>
+                        <div class="skills-tags">
+                            <span>Desenvolvimento de Sistemas</span>
+                            <span>WordPress</span>
+                            <span>No-code</span>
+                            <span>Design UI/UX</span>
+                            <span>Empreendedorismo</span>
+                            <span>Análise de Sistemas</span>
+                        </div>
+                    </div>
+                    <div class="skills glass-card">
+                        <h3>IA's que utilizo</h3>
+                        <div class="skills-tags">
+                            <span>Claude</span>
+                            <span>Claude Code</span>
+                            <span>Gemini</span>
+                            <span>Nano Banana 2</span>
+                            <span>Antigravity</span>
+                            <span>DeepSeek</span>
+                            <span>ChatGPT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Portfólio -->
+    <section id="portfolio" class="portfolio section">
+        <div class="container">
+            <h2 class="section-title">Projetos Recentes</h2>
+            <div class="portfolio-grid">
+                <!-- Card 1 -->
+                <div class="project-card glass-card">
+                    <div class="project-image" style="background-image: url('Fotos/logo_limma.png');"></div>
+                    <div class="project-info">
+                        <h3>Limma Coffe</h3>
+                        <p>Desenvolvi um site moderno e responsivo para uma cafeteria, valorizando o ambiente, os produtos e facilitando o contato e os pedidos online.</p>
+                        <a href="https://bruunios.github.io/Limma-Coffe/" target="_blank" rel="noopener noreferrer" class="btn-link">Ver Projeto</a>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="project-card glass-card">
+                    <div class="project-image" style="background-image: url('Fotos/sangue_heroi.png');"></div>
+                    <div class="project-info">
+                        <h3>Sangue Herói</h3>
+                        <p>Aplicativo criado para incentivar a doação de sangue, desenvolvido por alunos de escola técnica em SP. O projeto recebeu reconhecimento da <a href="https://cbn.globo.com/programas/cbn-sao-paulo/entrevista/2024/03/16/doacao-de-sangue-alunos-de-escola-tecnica-em-sp-criam-aplicativo-para-incentivar-doadores.ghtml" target="_blank" rel="noopener noreferrer" class="btn-link-inline">CBN</a>, sendo destaque em entrevista sobre inovação e impacto social.</p>
+                        <a href="https://bruunios.github.io/Sangue-Heroi/" target="_blank" rel="noopener noreferrer" class="btn-link">Ver Projeto</a>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="project-card glass-card">
+                    <div class="project-image" style="background-image: url('Fotos/nexo.png');"></div>
+                    <div class="project-info">
+                        <h3>NEXO</h3>
+                        <p>Aplicativo de doação desenvolvido para uma ONG, criado como projeto escolar. A plataforma conecta doadores à causa, facilitando contribuições e engajamento social.</p>
+                        <a href="https://bruunios.github.io/NEXO/index.html" target="_blank" rel="noopener noreferrer" class="btn-link">Ver Projeto</a>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="project-card glass-card">
+                    <div class="project-image" style="background-image: url('Fotos/orla.jpeg');"></div>
+                    <div class="project-info">
+                        <h3>Orla</h3>
+                        <p>Sistema de gerenciamento de tarefas colaborativo em tempo real. Crie, organize e compartilhe tarefas com seu grupo escolar ou de trabalho — todos editando ao mesmo tempo, sem conflito.</p>
+                        <a href="https://www.orla.blog.br/" target="_blank" rel="noopener noreferrer" class="btn-link">Ver Projeto</a>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="project-card glass-card">
+                    <div class="project-image" style="background-image: url('Fotos/logo_carlito.png'); background-position: center 30%;"></div>
+                    <div class="project-info">
+                        <h3>Carlito Hamburguer</h3>
+                        <p>Criação de site responsivo para hamburgueria, com foco em experiência do usuário, apresentação dos produtos e conversão de pedidos.</p>
+                        <a href="https://bruunios.github.io/Carlito-Hamburguer/" target="_blank" rel="noopener noreferrer" class="btn-link">Ver Projeto</a>
+                    </div>
+                </div>
+                <!-- Card 6 -->
+                <div class="project-card glass-card">
+                    <div class="project-image" style="background-image: url('Fotos/stef_vision.jpeg');"></div>
+                    <div class="project-info">
+                        <h3>Stef Vision</h3>
+                        <p>Site completo para uma loja de roupas, desenvolvido com HTML, CSS e JavaScript. Layout moderno, responsivo e focado em conversão — do catálogo de produtos até a experiência de compra.</p>
+                        <a href="https://bruunios.github.io/Stef-Vision/ui_kits/website/index.html" target="_blank" rel="noopener noreferrer" class="btn-link">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contato -->
+    <footer id="contact" class="footer section">
+        <div class="container">
+            <div class="contact-box glass-card">
+                <h2>Vamos construir algo incrível juntos?</h2>
+                <p>Estou disponível para projetos freelance e novas oportunidades.</p>
+                <a href="mailto:brunocicero577@gmail.com" class="btn btn-solid">Enviar E-mail</a>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/bruunios/" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-social">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.tiktok.com/@bruunioos" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-social">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/016/716/450/small_2x/tiktok-icon-free-png.png" alt="TikTok">
+                    </a>
+                    <a href="https://www.youtube.com/@Bruunios-ko3kx" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-social">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/018/930/572/small_2x/youtube-logo-youtube-icon-transparent-free-png.png" alt="YouTube">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Bruno Cicero. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
